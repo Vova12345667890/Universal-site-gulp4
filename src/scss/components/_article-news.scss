@@ -1,0 +1,77 @@
+.article-news{
+  &__cards{
+    padding-top: 60px;
+  }
+  &__card{
+    width: 848px;
+    padding-top: 30px;
+    background-color: var(--light-color);
+    border-bottom: 1px solid #d9dadb;
+  }
+  &__card-bottom{
+    width: 848px;
+    padding-top: 30px;
+    background-color: var(--light-color);
+  }
+  &__card--up{
+    border-radius: 20px 20px 0 0;
+  }
+  &__text{
+    padding-left: 25px;
+  }
+  &__title{
+    display: block;
+    width: 100%;
+    background-image: url(../img/Bookmark.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+  }
+  &__title--flight{
+    color: var(--blue-color);
+  }
+  &__title--food{
+    color: var(--bluegreen-color);
+    background-image: url(../img/Bookmark-red.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  &__title--science{
+    color: var(--red-color);
+  }
+  &__title--health{
+    color: var(--bluegreen-color);
+  }
+  &__title--art{
+    color: var(--purple-color);
+  }
+  &__subtitle{
+    width: 437px;
+    margin-bottom: 10px;
+    font-family: var(--second-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  &__image{
+    padding: 0 0 25px 25px;
+  }
+  &__desc{
+    margin-bottom: 20px;
+    width: 437px;
+    color:#4b5157;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  &__like{
+    background-image: url(../img/Heart.svg);
+  }
+  &__card-bottom{
+    border-radius: 0 0 20px 20px;
+  }
+}

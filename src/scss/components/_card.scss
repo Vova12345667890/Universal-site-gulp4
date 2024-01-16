@@ -1,0 +1,210 @@
+.card{
+  padding-top: 300px;
+  &__up{
+    margin-bottom: 30px;
+    grid-column: 9 span;
+  }
+  &__down{
+    grid-column: 9 span;
+  }
+  &__card{
+    padding: 25px 25px;
+    grid-column: 6 span;
+    border-radius: 20px;
+    background-color: var(--light-color);
+
+  }
+  &__all{
+    display: grid;
+    grid-column: 5 / 12 span;
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+
+  &__card-second{
+    padding-left: 25px;
+    border-radius: 15px;
+    margin-left: 30px;
+    width: 263px;
+    background-image: url(../img/bg.png);
+  }
+  &__car{
+    padding: 35px 35px 0 35px;
+    width: 555px;
+    background-color: var(--light-color);
+    background-image: url(../img/car.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 15px;
+
+  }
+  &__text-car{
+    margin-bottom: 20px;
+    color: #6E99AE;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  &__text{
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  &__text-second{
+    margin-left: 10px;
+    flex-direction: column;
+
+  }
+  &__comm--b{
+    background-image: url(../img/Comment.svg);
+    background-position: 10px 0;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0.4);
+    padding-left:30px;
+
+  }
+  &__like--b{
+    background-image: url(../img/Heart.svg);
+    background-position: 10px 0;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0.4);
+    padding-left:30px;
+
+  }
+  &__title{
+    margin-bottom: 25px;
+    max-width: 260px;
+    color: #262d33;
+    font-family: var(--second-family);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  &__desc{
+    width: 213px;
+    margin-bottom: 30px;
+    color: #4b5157;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px
+  }
+  &__green{
+    width: 66px;
+    padding: 5px 12px;
+    margin: 23px 0 117px 0px;
+    color: var(--light-color);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    border-radius: 3px;
+    background: #3DC47E;
+  }
+  &__text-second{
+    margin-bottom: 10px;
+    color: #e7d9ff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  &__headline{
+    margin-bottom: 15px;
+    color: var(--light-color);
+    font-family: var(--second-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  &__card-cat{
+    border-radius: 20px;
+    grid-column: 4 span;
+    background-color: var(--light-color);
+    width: 263px;
+  }
+  &__cat-text{
+    margin: 0;
+    padding: 15px 25px;
+    width: 230px;
+    color: #262D33;
+    font-family: var(--second-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  &__cat{
+    border-radius: 20px 20px 0 0;
+  }
+  &__subtitle{
+    color:  #262d33;
+    font-family: var(--second-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  &__date--ac{
+    margin: 0;
+    color:  #939699;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  &__avatar{
+    max-height: 45px;
+  }
+  &__date--b{
+    color: rgba(255, 255, 255, 0.4);
+  }
+  &__name{
+
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+  }
+}
+.bottom{
+  border-top: 1px solid #d9dadb;
+  padding: 12px 0;
+
+
+  &__text{
+    margin-right: 5px;
+    color: #262D33;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  &__desc{
+    margin-right: 10px;
+    color: #262D33;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  &__comment{
+    background-image: url(../img/Comment.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 15px;
+    color: #939699;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+
+
+}
+

@@ -1,0 +1,28 @@
+.hero{
+background-color: var(--black-color);
+
+padding: 85px 0 315px;
+
+&__cards{
+  background-color: #30363D;
+  border-radius: 15px;
+  padding: 25px 0 30px;
+}
+&__card{
+  border-right: 1px solid #4B5157;
+}
+&__text{
+  margin: 0 15px 0 25px;
+  max-width: 154px;
+  color: var(--light-color);
+  font-family: var(--second-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+}
+&__image{
+  margin-right: 25px;
+  width: 65px;
+  height: 65px;
+}
+}

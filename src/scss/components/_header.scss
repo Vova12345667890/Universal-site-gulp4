@@ -1,0 +1,92 @@
+.header{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  &__up{
+    justify-content: space-between;
+  }
+  &__left-img{
+    margin: 7px 10px 0 0;
+    padding: 0;
+    border-top: 1px solid #d9dadb;
+    border-right: 1px solid #d9dadb;
+    border-left: 1px solid #d9dadb;
+  }
+  &__left-text{
+    margin-top: 11px;
+    color: #262D33;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  &__left-dsc{
+    margin-bottom: 9px;
+    color: #939699;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  &__sing{
+    padding-left: 30px;
+    background-image: url(../img/Man.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 15px 0 15px 80px;
+    color:  #4B5157;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  &__sect{
+    padding: 15px 25px 15px 15px;
+    border-right: 1px solid #d9dadb;
+    color: #262D33;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  &__search{
+    background-image: url(../img/Search.svg);
+    background-repeat: no-repeat;
+    padding: 15px 0 15px 55px;
+    background-position: 15px center;
+    &:focus{
+      outline: none;
+
+    }
+  }
+
+  &__center{
+    border-top: 1px solid #d9dadb;
+  }
+  &__text{
+    margin-left: 15px;
+    color: var(--gray-color);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  &__logo{
+    margin:0 171px 0 130px;
+  }
+  &__temp{
+    width: 75px;
+    margin-left: 50px;
+    padding-left: 30px;
+    background-image: url(../img/sun.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  &__bottom{
+    background-color: var(--black-color);
+
+  }
+  &__item{
+    padding: 17px 46px 18px 0;
+    color: var(--light-color);
+  }
+}
+
