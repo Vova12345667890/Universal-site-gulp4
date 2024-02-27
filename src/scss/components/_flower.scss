@@ -3,6 +3,7 @@
   max-height: 270px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   &__container{
     flex-direction: column;
     align-items: center;
@@ -20,5 +21,14 @@
   }
   &__btn-content{
     padding-bottom: 55px;
+    &:focus{
+      outline: none;
+    }
+    @include hover{
+
+    }
+    &:active{
+
+    }
   }
 }

@@ -33,6 +33,9 @@ img {
 a {
   text-decoration: none;
   cursor: pointer;
+  &:focus{
+    outline: none;
+  }
 }
 
 
@@ -49,6 +52,9 @@ a {
   padding: 0;
   background-color: transparent;
   cursor: pointer;
+  &:focus{
+    outline: none;
+  }
 }
 
 .list-reset {
@@ -127,6 +133,10 @@ a {
  .flex-v-center{
   display: flex;
   justify-content: center
+ }
+ .flex-v-column{
+  display: flex;
+  flex-direction: column
  }
  .burger{
   @include burger;

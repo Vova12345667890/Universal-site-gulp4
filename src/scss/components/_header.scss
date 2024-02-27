@@ -5,6 +5,19 @@
   &__up{
     justify-content: space-between;
   }
+  &__btn{
+    &:focus{
+      outline: none;
+    }
+    @include hover{
+      opacity: .75;
+    }
+
+  }
+  &__right{
+    display: flex;
+    align-items: center;
+  }
   &__left-img{
     margin: 7px 10px 0 0;
     padding: 0;
@@ -85,8 +98,27 @@
 
   }
   &__item{
+    list-style: none;
     padding: 17px 46px 18px 0;
     color: var(--light-color);
+
+  }
+  &__link{
+    color: var(--light-color);
+    transition: color .5s ease-in-out;
+    &:focus{
+      outline: none;
+    }
+   @include hover{
+    color: #808080;
+   }
+   &:active{
+    color: rgb(235, 123, 123);
+   }
   }
 }
 
+.header__link.focus-visible{
+  outline: 1px solid #939699;
+  outline-offset: 5px;
+}

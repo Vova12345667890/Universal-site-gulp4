@@ -1,7 +1,6 @@
 .article-news{
-  &__cards{
-    padding-top: 60px;
-  }
+  padding-top: 60px;
+  padding-bottom: 60px;
   &__card{
     width: 848px;
     padding-top: 30px;
@@ -22,7 +21,6 @@
   &__title{
     display: block;
     width: 100%;
-    background-image: url(../img/Bookmark.svg);
     background-repeat: no-repeat;
     background-position: right;
     margin-bottom: 15px;
@@ -36,9 +34,6 @@
   }
   &__title--food{
     color: var(--bluegreen-color);
-    background-image: url(../img/Bookmark-red.svg);
-    background-repeat: no-repeat;
-    background-position: right;
   }
   &__title--science{
     color: var(--red-color);
@@ -68,10 +63,101 @@
     font-weight: 400;
     line-height: 20px;
   }
+
+  &__comm{
+    background-image: url(../img/Comment.svg);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    color: #939699;
+    padding-left:30px;
+
+  }
   &__like{
     background-image: url(../img/Heart.svg);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    color: #939699;
+    padding-left:30px;
+
   }
   &__card-bottom{
     border-radius: 0 0 20px 20px;
   }
+  &__right{
+    max-height: 770px;
+    width: 263px;
+    padding: 20px 25px;
+    background-color: var(--light-color);
+    border-radius: 20px;
+    margin-left: 30px;
+  }
+  &__slog{
+    color: #262d33;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #d9dadb;
+    padding-bottom: 20px;
+  }
+  &__slogan{
+    padding-top: 17px;
+    margin-bottom: 5px;
+    width: 143px;
+    color: #4B5157;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  &__date{
+    color: #939699;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  &__right-card{
+    border-bottom: 1px solid #d9dadb;
+    padding-bottom: 17px;
+
+  }
+  &__more{
+    padding-left: 70px;
+    color: #262D33;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    &:focus{
+      outline: none;
+    }
+    @include hover{
+      color: #2f3438;
+    }
+    &:active{
+      color: #262d33;
+    }
+  }
+  &__pic{
+    padding-top: 17px;
+    width: 60px;
+    height: 60px;
+  }
+  &__top{
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__img{
+    width: 20px;
+    height: 20px;
+    fill: #bcbfc2;
+    @include hover{
+      fill: rgb(235, 123, 123)
+    }
+  }
+
 }
